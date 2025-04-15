@@ -8,6 +8,7 @@ var map = new L.Map('map', {
   map.addLayer(tileLayer);
   map.setView(L.latLng(46.57591, 7.84956), 8);
   
+
   var skLayer = L.geoJSON(null, {onEachFeature}).addTo(map);
   var akLayer = L.geoJSON(null, {onEachFeature}).addTo(map);
   
@@ -47,7 +48,8 @@ var map = new L.Map('map', {
   
   function onEachFeature (feature, layer)
   {
-      var popupContent = '<strong>' +feature.properties.description + '</strong>';
+  
+    var popupContent = '<strong>' +feature.properties.description + '</strong>';
       popupContent += '<br/>' + "- Anreisezeit/Kletterzeit[h]: " + feature.properties.anreisezeit + "/" + feature.properties.kletterzeit;
       popupContent += '<br/>' + "- Literatur";
       for (const book of feature.properties.Books){

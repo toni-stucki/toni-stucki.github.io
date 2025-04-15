@@ -7,10 +7,15 @@ var map = new L.Map('map', {
   var tileLayer = new L.tileLayer('https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg');
   map.addLayer(tileLayer);
   map.setView(L.latLng(46.57591, 7.84956), 8);
-  
 
-  var skLayer = L.geoJSON(null, {onEachFeature}).addTo(map);
-  var akLayer = L.geoJSON(null, {onEachFeature}).addTo(map);
+  var myStyle = {
+    "color": "#7703fc",
+    "weight": 10,
+    "opacity": 0.65
+  };
+  
+  var skLayer = L.geoJSON(null, {style: myStyle, onEachFeature: onEachFeature}).addTo(map);
+  var akLayer = L.geoJSON(null, {style: myStyle, onEachFeature: onEachFeature}).addTo(map);
   
   for (var feature of tourenpunkte.features)
   {

@@ -371,6 +371,58 @@ var tourenlinien = {
                   }
                   ]
                 }
-        }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [8.053073, 46.243121],
+                  [8.055279, 46.24131],
+                  [8.057239, 46.238051]
+            ]
+          },
+          "properties": {
+            "gipfel": "Hübschhorn 3192m,",
+            "name": "huebschhorn_nordgrat",
+            "description": "Hübschhorn Nordgrat",
+            "kletterzeit": "6",
+            "anreisezeit": "3",
+            "schwierigkeit": "S/4c",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "SAC Tourenportal"
+            },
+            {
+                "title": "Silbernagel. Urner, Glarner, Tessiner Alpen. 2017."
+            }
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [7.976206, 46.124427],
+                  [7.983926, 46.125307]
+            ]
+          },
+          "properties": {
+            "gipfel": "Schwarzmies 3185m,",
+            "name": "schwarzmies_ueberschreitung",
+            "description": "Schwarzmies Überschreitung W-O",
+            "kletterzeit": "5",
+            "anreisezeit": "3",
+            "schwierigkeit": "ZS/3b",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "Silbernagel. Walliser Alpen. 2021."
+            }
+            ]
+          }
+        }      
 ]
 };

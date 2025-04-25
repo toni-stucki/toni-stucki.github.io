@@ -1,3 +1,4 @@
+
 var tourenpunkte = {
   "type": "FeatureCollection",
    "features": [
@@ -42,7 +43,7 @@ var tourenlinien = {
             "properties": {
               "gipfel": "Stockhorn 3212m",
               "name": "Stockhorn_suedgrat",
-              "description": "Stockhorn Südgrat",
+              "description": "Stockhorn 3212m, Südgrat",
               "kletterzeit": "6",
               "anreisezeit": "6",
               "type": "Alpines Klettern",
@@ -66,7 +67,7 @@ var tourenlinien = {
             "properties": {
               "gipfel": "Hinderi Spillgerte 2475m",
               "name": "Spillgerte_ne_grat",
-              "description": "Spillgerte Nordostgrat",
+              "description": "Hinderi Spillgerte 2475m, Nordostgrat",
               "kletterzeit": "4",
               "anreisezeit": "3",
               "type": "Alpines Klettern",
@@ -120,7 +121,7 @@ var tourenlinien = {
                 "properties": {
                   "gipfel": "Lagginhorn 4010m",
                   "name": "lagginhorn_suedgrat",
-                  "description": "Lagginhorn Südgrat",
+                  "description": "Lagginhorn 4010m, Südgrat",
                   "kletterzeit": "6",
                   "anreisezeit": "2.5",
                   "schwierigkeit": "zs-/2c",
@@ -145,7 +146,7 @@ var tourenlinien = {
                 "properties": {
                   "gipfel": "Fünffingersteck 2970",
                   "name": "fuenffingersteck_suedostgrat",
-                  "description": "Fünffingersteck Südostgrat",
+                  "description": "Fünffingersteck 2970m Südostgrat",
                   "kletterzeit": "8",
                   "anreisezeit": "4",
                   "schwierigkeit": "S/5a",
@@ -170,7 +171,7 @@ var tourenlinien = {
                 "properties": {
                   "gipfel": "Grosses Gelmerhorn 2630",
                   "name": "gelmerhoerner_ueberschreitung",
-                  "description": "Chlys und Grosses Gelmerhorn Überschreitung",
+                  "description": "Chlys und Grosses Gelmerhorn 2630m, Überschreitung",
                   "kletterzeit": "3.5",
                   "anreisezeit": "4",
                   "schwierigkeit": "5a",
@@ -281,7 +282,7 @@ var tourenlinien = {
                 "properties": {
                   "gipfel": "Lobhoren 2565m",
                   "name": "lobhorn_ueberschreitung",
-                  "description": "Lobhorn Überschreitung Ost-West",
+                  "description": "Lobhorn 2565m, Überschreitung Ost-West",
                   "kletterzeit": "5",
                   "anreisezeit": "5",
                   "schwierigkeit": "4c",
@@ -334,7 +335,7 @@ var tourenlinien = {
                 "properties": {
                   "gipfel": "Leiterspitzen 3409m,",
                   "name": "leiterspitzen_ueberschreitung",
-                  "description": "Leiterspitzen Überschreitung",
+                  "description": "Leiterspitzen 3409m, Überschreitung",
                   "kletterzeit": "3",
                   "anreisezeit": "5",
                   "schwierigkeit": "ZS+",
@@ -368,7 +369,10 @@ var tourenlinien = {
                   "Books": [
                   {
                       "title": "Silbernagel. Alpine Klettertouren. Band 1."
-                  }
+                  },
+                  {
+                      "title": "Batoux. Mont-Blanc. 100 Finest Routes."
+                  },
                   ]
                 }
         },
@@ -385,7 +389,7 @@ var tourenlinien = {
           "properties": {
             "gipfel": "Hübschhorn 3192m,",
             "name": "huebschhorn_nordgrat",
-            "description": "Hübschhorn Nordgrat",
+            "description": "Hübschhorn 3192m, Nordgrat",
             "kletterzeit": "6",
             "anreisezeit": "3",
             "schwierigkeit": "S/4c",
@@ -412,7 +416,7 @@ var tourenlinien = {
           "properties": {
             "gipfel": "Schwarzmies 3185m,",
             "name": "schwarzmies_ueberschreitung",
-            "description": "Schwarzmies Überschreitung W-O",
+            "description": "Schwarzmies 3185m, Überschreitung W-O",
             "kletterzeit": "5",
             "anreisezeit": "3",
             "schwierigkeit": "ZS/3b",
@@ -423,6 +427,144 @@ var tourenlinien = {
             }
             ]
           }
-        }      
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [8.280901, 46.594962],
+                  [8.281985, 46.595035],
+                  [8.282707, 46.594454],
+                  [8.286080, 46.594006],
+                  [8.289251, 46.594441]
+            ]
+          },
+          "properties": {
+            "gipfel": "Alplistock 2894m,",
+            "name": "alplistock_ueberschreitung",
+            "description": "Alplistock 2894m, Überschreitung W-O",
+            "kletterzeit": "5",
+            "anreisezeit": "4.5",
+            "schwierigkeit": "ZS-/4c",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "Silbernagel. Berner Alpen. 2022."
+            }
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [7.980150, 46.576258],
+                  [7.981031, 46.576660],
+                  [7.983739, 46.577419]
+            ]
+          },
+          "properties": {
+            "gipfel": "Eiger Rotstock 2663m",
+            "name": "rotstock_westgrat",
+            "description": "Eiger Rotstock 2663m, Westgrat",
+            "kletterzeit": "2.5",
+            "anreisezeit": "2",
+            "schwierigkeit": "ZS-/5a",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "Silbernagel. Berner Alpen. 2022."
+            },
+            {
+                "title": "SAC Tourenportal"
+            }
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [7.760726, 46.435875],
+                  [7.763820, 46.437549],
+                  [7.765905, 46.439951]
+            ]
+          },
+          "properties": {
+            "gipfel": "Sackhorn 3204m",
+            "name": "sackhorn_ueberschreitung",
+            "description": "Sackhorn 3204m, SW-Grat",
+            "kletterzeit": "5",
+            "anreisezeit": "3",
+            "schwierigkeit": "ZS+/4a",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "Silbernagel. Berner Alpen. 2022."
+            },
+            {
+                "title": "SAC Tourenportal"
+            }
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [7.591174, 46.465316],
+                  [7.591244, 46.463424],
+                  [7.593906, 46.463018],
+                  [7.597863, 46.462728 ],
+                  [7.600174, 46.461967]
+            ]
+          },
+          "properties": {
+            "gipfel": "Vordere Loner 3049",
+            "name": "loner_westgrat",
+            "description": "Vordere Loner 3049, W-Grat",
+            "kletterzeit": "5",
+            "anreisezeit": "5",
+            "schwierigkeit": "ZS-/3b",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "SAC Tourenportal"
+            }
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                  [7.461005, 46.708166],
+                  [7.461963, 46.707432],
+                  [7.461400, 46.706344]
+            ]
+          },
+          "properties": {
+            "gipfel": "Grossi Nüneneflue 2102m",
+            "name": "loner_westgrat",
+            "description": "Grossi Nüneneflue 2102m, Gemschgrätli",
+            "kletterzeit": "3",
+            "anreisezeit": "2.5",
+            "schwierigkeit": "5a",
+            "type": "Alpines Klettern",
+            "Books": [
+            {
+                "title": "SAC Tourenportal"
+            },
+            {
+                "title" : "Saurer/Senn. Outdoorführer Stockhorn-Gantrisch-Schwarzsee"
+            }
+            ]
+          }
+        }
 ]
 };
